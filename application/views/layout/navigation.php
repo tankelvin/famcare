@@ -21,8 +21,8 @@
 				<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="<?php site_url('welcome/index');?>">Home</a></li>
-						<li><a href="<?php site_url('welcome/courses');?>">Courses</a></li>
+						<li><a href="<?php echo site_url('welcome/index');?>">Home</a></li>
+						<li><a href="<?php echo site_url('Welcome/blog');?>"> course</a></li>
 						<li><a href="<?php site_url('welcome/acticle');?>">Article</a></li>
 						<li><a href="<?php site_url('welcome/contact');?>">Contact</a></li>
 						<li><a href="<?php site_url('welcome/login');?>" data-toggle="modal" data-target="#simpleModal">Login</a></li>
