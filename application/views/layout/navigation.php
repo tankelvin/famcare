@@ -21,11 +21,11 @@
 				<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Courses</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="<?php site_url('welcome/index');?>">Home</a></li>
+						<li><a href="<?php site_url('welcome/courses');?>">Courses</a></li>
+						<li><a href="<?php site_url('welcome/acticle');?>">Article</a></li>
+						<li><a href="<?php site_url('welcome/contact');?>">Contact</a></li>
+						<li><a href="<?php site_url('welcome/login');?>" data-toggle="modal" data-target="#simpleModal">Login</a></li>
 					</ul>
 				</nav>
 				<!-- /Navigation -->
