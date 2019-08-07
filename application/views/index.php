@@ -37,7 +37,7 @@
 
 					<div class="col-md-6">
 						<div class="section-header">
-							<h2>Welcome to Edusite</h2>
+							<h2>Welcome to FamCare</h2>
 							<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
 						</div>
 
