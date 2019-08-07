@@ -11,23 +11,11 @@
 					<div class="col-md-6">
 						<div class="footer-logo">
 							<a class="logo" href="index.html">
-								<img src="./img/logo.png" alt="logo">
+								<img src="<?php echo base_url();?>assets/img/logo.png" alt="logo">
 							</a>
 						</div>
 					</div>
 					<!-- footer logo -->
-
-					<!-- footer nav -->
-					<div class="col-md-6">
-						<ul class="footer-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Courses</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-					<!-- /footer nav -->
 
 				</div>
 				<!-- /row -->
@@ -38,12 +26,12 @@
 					<!-- social -->
 					<div class="col-md-4 col-md-push-8">
 						<ul class="footer-social">
-							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
-							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="http://www.facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://www.twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://www.google.com" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="http://www.instagram.com" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="http://www.youtube.com" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="http://www.linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 					<!-- /social -->
