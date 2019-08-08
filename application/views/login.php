@@ -234,7 +234,7 @@ label {
             <input type="password" name="userPass" id="userPass" autocomplete="off" />
           </div>
 
-          <p class="forgot resetPass"><a data-toggle="modal" href="#resetPassword">Forgot Password?</a></p>
+          <p class="forgot resetPass"><a data-toggle="modal" href="#resetPassword">Don't have an Account?</a></p>
           <button class="button button-block" />Sign Me In</button>
         </form>
       </div> 
