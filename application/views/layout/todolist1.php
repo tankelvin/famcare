@@ -1,14 +1,14 @@
 
+	</div>
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="<?php echo base_url('welcome/todolist');?>Home</a></li>
+						</li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
 
-<!DOCTYPE html>
-<?php include ('application/config/config.php'); ?>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<a class="course-title" href="<?php echo base_url('welcome/todolist'); ?>">Built a relationship</a>
-
-
-</body>
-</html>
+			</div>
+	
+		<!-- /Header -->

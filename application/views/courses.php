@@ -52,8 +52,8 @@
 				<!-- row -->
 				<div class="row">
 					<div class="section-header text-center">
-						<h2>Selamat Datang</h2>
-						<p class="lead">Sayangi jiwa anda, ikuti pelatihan kami sekarang..</p>
+						<h2>Wellcome</h2>
+						<p class="lead">Love Yourself..</p>
 					</div>
 				</div>
 				<!-- /row -->
@@ -72,13 +72,11 @@
 									
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title">
-									<?php $this->load->view('layout/todolist1');?>
-								</a>
-							
+
+								
+							<a class="course-title" href="<?php echo base_url();?>todolist/index.php "> Make a Relationship </a>
 								<div class="course-details">
-									<span class="course-category"><?php $this->load->view('layout/progress');?></span>
-									
+									<?php $this->load->view('layout/progress');?>
 								</div>
 							</div>
 						</div>
@@ -139,7 +137,10 @@
 
 				</div>
 				<!-- /courses -->
+<a class="course-title">
 
+									<?php $this->load->view('layout/todolist1');?>
+								</a>
 				<div class="row">
 					<div class="center-btn">
 						<a class="main-button icon-button" href="#">More Courses</a>
