@@ -221,7 +221,7 @@ label {
     <div class="sign-in-up-form">
       <div id="login">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times"></i></span></button>
-        <h1>All ready have an Account?<br />Welcome back!</h1>
+        <h1>Welcome back!</h1>
 
         <form action="/" method="post">
           <div class="field-wrap">
@@ -235,7 +235,7 @@ label {
           </div>
 
           <p class="forgot resetPass"><a data-toggle="modal" href="#resetPassword">Don't have an Account?</a></p>
-          <button class="button button-block" />Sign Me In</button>
+          <button class="button button-block" />Login</button>
         </form>
       </div> 
     </div>
@@ -247,7 +247,7 @@ label {
     <div class="sign-in-up-form">
       <div id="signup">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times"></i></span></button>
-        <h1>Don't have an Account?<br />Sign Up today!</h1>
+        <h1>Sign Up today!</h1>
           <form action="/" method="post">
             <div class="field-wrap">
               <label id="label_signupNickname">Nickname<span class="req">*</span></label>
@@ -271,7 +271,7 @@ label {
               </div>
             </div>
 
-            <button type="submit" class="button button-block" />Get Started</button>
+            <button type="submit" class="button button-block" />Sign Up</button>
           </form>
         </div>
       </div>
