@@ -3,7 +3,7 @@
 	<?php $this->load->view('layout/header');?>
 	<body>
 		<?php $this->load->view('layout/navigation');?>
-
+		<?php $this->load->view('login');?>
 		<!-- Home -->
 		<div id="home" class="hero-area">
 

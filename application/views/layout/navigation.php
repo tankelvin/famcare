@@ -25,7 +25,7 @@
 						<li><a href="<?php echo site_url('Welcome/courses');?>">Course</a></li>
 						<li><a href="<?php echo site_url('Welcome/acticle');?>">Article</a></li>
 						<li><a href="<?php echo site_url('Welcome/contact');?>">Contact</a></li>
-						<li><a href="<?php echo site_url('Welcome/login');?>" data-toggle="modal" data-target="#simpleModal">Login</a></li>
+						<li data-toggle="modal" data-target="#mylogin"><a href="#">Login</a></li>
 					</ul>
 				</nav>
 				<!-- /Navigation -->
