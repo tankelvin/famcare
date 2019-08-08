@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<?php $this->load->view('layout/header');?>
-		<title>HTML Education Template</title>
-    </head>
+	<?php $this->load->view('layout/header');?>
 	<body>
 
 			<!-- Header -->
@@ -20,9 +17,9 @@
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
 							<li><a href="index.html">Home</a></li>
-							<li>Blog</li>
+							<li>Courses</li>
 						</ul>
-						<h1 class="white-text">Blog Page</h1>
+						<h1 class="white-text">Courses</h1>
 
 					</div>
 				</div>
