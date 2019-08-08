@@ -75,7 +75,9 @@
 									
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="<?php echo site_url('Welcome/todolist'); ?>">Built a relationship</a>
+								<a class="course-title">
+									<?php $this->load->view('layout/todolist1');?>
+								</a>
 							
 								<div class="course-details">
 									<span class="course-category"><?php $this->load->view('layout/progress');?></span>

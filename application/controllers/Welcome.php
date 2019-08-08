@@ -45,6 +45,6 @@ class Welcome extends CI_Controller {
 
 	public function todolist()
 	{
-		$this->load->view('todolist/index');
+		$this->load->view('todolist');
 	}
 }
