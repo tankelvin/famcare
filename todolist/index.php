@@ -34,7 +34,8 @@
 	<body>
 
 		<div class="list">
-			<h1 class="header"> To do.</h1>
+			<h1 class="header"> To do.
+			</h1>
 
 			<?php if(!empty($items)): ?>
 			<ul class="items">
@@ -55,6 +56,7 @@
 			<?php endif; ?>
 
 			<form class="item-add" action="add.php" method="POST">
+				
 				
 
 
