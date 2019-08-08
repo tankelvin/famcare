@@ -223,15 +223,13 @@ label {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times"></i></span></button>
         <h1>Welcome back!</h1>
 
-        <form action="/" method="post">
+        <form action="<?php echo site_url('Welcome/cek_login')?>" method="post">
           <div class="field-wrap">
-            <label id="label_userEmail">Email Address<span class="req">*</span></label>
-            <input type="email" name="userEmail" id="userEmail" autocomplete="off" />
+            <input type="email" name="email" id="userEmail" autocomplete="off" placeholder="Email Address *" />
           </div>
 
           <div class="field-wrap">
-            <label id="label_userPass">Password<span class="req">*</span></label>
-            <input type="password" name="userPass" id="userPass" autocomplete="off" />
+            <input type="password" name="password" id="userPass" autocomplete="off" placeholder="Password *" />
           </div>
 
           <p class="forgot resetPass"><a data-toggle="modal" href="#resetPassword">Don't have an Account?</a></p>
@@ -248,26 +246,22 @@ label {
       <div id="signup">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times"></i></span></button>
         <h1>Sign Up today!</h1>
-          <form action="/" method="post">
+          <form action="<?php echo site_url('Welcome/register')?>" method="post">
             <div class="field-wrap">
-              <label id="label_signupNickname">Nickname<span class="req">*</span></label>
-              <input type="text" name="signupNickname" id="signupNickname" autocomplete="off" />
+              <input type="text" name="username" id="signupNickname" autocomplete="off" placeholder="Nickname *" />
             </div>
 
             <div class="field-wrap">
-              <label id="label_signupEmail">Email Address<span class="req">*</span></label>
-              <input type="email" name="signupEmail" id="signupEmail" autocomplete="off" />
+              <input type="email" name="email" id="signupEmail" autocomplete="off" placeholder="Email Address *" />
             </div>
 
             <div class="top-row">
               <div class="field-wrap">
-                 <label id="label_signupPass">Password<span class="req">*</span></label>
-                 <input type="password" name="signupPass" id="signupPass" autocomplete="off" />
+                 <input type="password" name="password" id="signupPass" autocomplete="off" placeholder="Password *" />
               </div>
 
               <div class="field-wrap">
-                <label id="label_signupPass_r">Repeat Password<span class="req">*</span></label>
-                <input type="password" name="signupPass_r" id="signupPass_r" autocomplete="off" />
+                <input type="password" name="confirm" id="signupPass_r" autocomplete="off" placeholder="Repeat Password *" />
               </div>
             </div>
 
