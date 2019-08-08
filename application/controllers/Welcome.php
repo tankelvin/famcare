@@ -43,8 +43,8 @@ class Welcome extends CI_Controller {
 		$this->load->view('contact');
 	}
 
-	public function blog()
+	public function todolist()
 	{
-		$this->load->view('blog');
+		$this->load->view('todolist/index');
 	}
 }
