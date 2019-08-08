@@ -33,7 +33,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('courses');
 	}
 
-	public function acticle()
+	public function article()
 	{
 		$this->load->view('article');
 	}

@@ -23,7 +23,7 @@
 					<ul class="main-menu nav navbar-nav navbar-right">
 						<li><a href="<?php echo site_url('Welcome/index');?>">Home</a></li>
 						<li><a href="<?php echo site_url('Welcome/courses');?>">Course</a></li>
-						<li><a href="<?php echo site_url('Welcome/acticle');?>">Article</a></li>
+						<li><a href="<?php echo site_url('Welcome/article');?>">Article</a></li>
 						<li><a href="<?php echo site_url('Welcome/contact');?>">Contact</a></li>
 						<li data-toggle="modal" data-target="#mylogin"><a href="#">Login</a></li>
 					</ul>
