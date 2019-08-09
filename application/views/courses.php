@@ -138,14 +138,9 @@
 				</div>
 				<!-- /courses -->
 <a class="course-title">
-
-									<?php $this->load->view('layout/todolist1');?>
-								</a>
-				<div class="row">
-					<div class="center-btn">
-						<a class="main-button icon-button" href="#">More Courses</a>
-					</div>
-				</div>
+<?php $this->load->view('layout/todolist1');?>
+</a>
+				
 
 			</div>
 			<!-- container -->
@@ -165,4 +160,5 @@
 		<!-- Footer -->
 
 	</body>
+	
 </html>
