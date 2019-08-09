@@ -51,7 +51,7 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="artikel1.php">
 											<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 										</a>
 									</div>
@@ -71,7 +71,7 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="<?php echo base_url();?>views/artikel1.php">
 											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
@@ -168,11 +168,11 @@
 						<!-- category widget -->
 						<div class="widget category-widget">
 							<h3>Categories</h3>
-							<a class="category" href="#">Web <span>12</span></a>
-							<a class="category" href="#">Css <span>5</span></a>
-							<a class="category" href="#">Wordpress <span>24</span></a>
-							<a class="category" href="#">Html <span>78</span></a>
-							<a class="category" href="#">Business <span>36</span></a>
+							<a class="category" href="#">Broken Home <span>12</span></a>
+							<a class="category" href="#">Lonely <span>5</span></a>
+							<a class="category" href="#">Depressed <span>24</span></a>
+							<a class="category" href="#">Happy <span>78</span></a>
+							<a class="category" href="#">Family <span>36</span></a>
 						</div>
 						<!-- /category widget -->
 
@@ -213,19 +213,6 @@
 						</div>
 						<!-- /posts widget -->
 
-						<!-- tags widget -->
-						<div class="widget tags-widget">
-							<h3>Tags</h3>
-							<a class="tag" href="#">Web</a>
-							<a class="tag" href="#">Photography</a>
-							<a class="tag" href="#">Css</a>
-							<a class="tag" href="#">Responsive</a>
-							<a class="tag" href="#">Wordpress</a>
-							<a class="tag" href="#">Html</a>
-							<a class="tag" href="#">Website</a>
-							<a class="tag" href="#">Business</a>
-						</div>
-						<!-- /tags widget -->
 
 					</div>
 					<!-- /aside blog -->
@@ -241,7 +228,10 @@
 		</div>
 
 
-
-
+		<?php $this->load->view('layout/footer');?> 
 </body>
 </html>
+	
+
+
+
