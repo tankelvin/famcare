@@ -66,15 +66,15 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="<?php echo site_url('Welcome/article1');?>">
 											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
+									<h4><a href="<?php echo site_url('Welcome/article1');?>">Bagaimana Azka Corbuzier Mengubah ‘Broken Home’ Menjadi ‘Happy Home’</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: John Doe</span>
+										<span class="blog-meta-author">By: Fhai</span>
 										<div class="pull-right">
-											<span>18 Oct, 2017</span>
+											<span>18 Oct, 2018</span>
 										</div>
 									</div>
 								</div>
@@ -82,43 +82,7 @@
 							<!-- /single blog -->
 
 							<!-- single blog -->
-							<div class="col-md-6">
-								<div class="single-blog">
-									<div class="blog-img">
-										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/a3.jpg" alt="">
-										</a>
-									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
-									<div class="blog-meta">
-										<span class="blog-meta-author">By: John Doe</span>
-										<div class="pull-right">
-											<span>18 Oct, 2017</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /single blog -->
-
-							<!-- single blog -->
-							<div class="col-md-6">
-								<div class="single-blog">
-									<div class="blog-img">
-										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/a4.jpg" alt="">
-										</a>
-									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
-									<div class="blog-meta">
-										<span class="blog-meta-author">By: John Doe</span>
-										<div class="pull-right">
-											<span>18 Oct, 2017</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /single blog -->
-
+							
 						</div>
 						<!-- /row -->
 
