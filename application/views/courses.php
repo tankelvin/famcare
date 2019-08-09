@@ -52,7 +52,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/index.php " class="course-img">
-									<img src="<?php echo base_url();?>assets/img/course01.jpg" alt="">						
+									<img src="<?php echo base_url();?>assets/img/C1.jpg" alt="">					
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
 	
@@ -68,7 +68,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/progress2.php" class="course-img">
-									<img src="<?php echo base_url();?>assets/img/course02.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/C4.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
 								
@@ -84,7 +84,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/progress3.php" class="course-img">
-									<img src="<?php echo base_url();?>assets/img/course03.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/C1.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
 								<a class="course-title" href="<?php echo base_url();?>todolist/progress3.php ">Try to love something</a>
@@ -98,7 +98,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/progress4.php" class="course-img">
-									<img src="<?php echo base_url();?>assets/img/course04.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/C4.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
 								<a class="course-title" href="<?php echo base_url();?>todolist/progress4.php ">Make a new life</a>
