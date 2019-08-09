@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 09, 2019 at 03:40 AM
+-- Generation Time: Aug 09, 2019 at 07:41 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.1.30
 
@@ -25,6 +25,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `comment`
+--
+
+CREATE TABLE `comment` (
+  `comment_id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `message` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `comment`
+--
+
+INSERT INTO `comment` (`comment_id`, `name`, `email`, `message`) VALUES
+(1, 'Kelvin', 'kelvin@mail.com', 'Terima kasih. Ini sangat membantu'),
+(2, 'Gina', 'gina@gmailc.om', 'Saya merasa lebih baik'),
+(3, 'Syarah Adelas', 'sad@gmail.com', 'hahahhahhah aku sangat senang');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `items`
 --
 
@@ -41,9 +63,9 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `user`, `done`, `created`) VALUES
-(10, 'join a club', 1, 0, '2019-08-09 00:00:00'),
-(20, 'Introduce yourself', 1, 0, '2019-08-09 00:00:00'),
-(30, 'be brave to meet a new people', 1, 0, '2019-08-09 00:00:00'),
+(10, 'join a club', 1, 1, '2019-08-09 00:00:00'),
+(20, 'Introduce yourself', 1, 1, '2019-08-09 00:00:00'),
+(30, 'be brave to meet a new people', 1, 1, '2019-08-09 00:00:00'),
 (40, 'say hi to someone', 1, 0, '2019-08-09 00:00:00'),
 (50, 'make a call to a new friend', 1, 0, '2019-08-09 00:00:00'),
 (60, 'hangout together', 1, 0, '2019-08-09 00:00:00'),
@@ -153,11 +175,20 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`user_id`, `username`, `email`, `password`) VALUES
 (1, 'admin', 'admin@admin', 'admin'),
-(2, 'Tan', 'tan@mail.com', 'tan');
+(2, 'Tan', 'tan@mail.com', 'tan'),
+(4, 'Tans', 'tan@mail.com', 'tan'),
+(5, 'Tansss', 'tan@mail.com', 'tan'),
+(6, 'Kelvin', 'kelvin@mail.com', 'kelvin');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `comment`
+--
+ALTER TABLE `comment`
+  ADD PRIMARY KEY (`comment_id`);
 
 --
 -- Indexes for table `items`
@@ -200,6 +231,12 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `comment`
+--
+ALTER TABLE `comment`
+  MODIFY `comment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
@@ -233,7 +270,7 @@ ALTER TABLE `progress4`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
