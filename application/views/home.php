@@ -17,7 +17,7 @@
 						<div class="col-md-8">
 							<h1 class="white-text">FamCare Online Training Courses</h1>
 							<p class="lead white-text">The web helps you who are suffering from traumatic damage</p>
-							<a class="main-button icon-button" href="<?php echo site_url('Welcome/courses');?>">Do some courses</a>
+							<a class="main-button icon-button" href="<?php echo site_url('Welcome/courses');?>">Do some courses !</a>
 						</div>
 					</div>
 				</div>
