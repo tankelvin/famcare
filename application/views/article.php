@@ -86,7 +86,7 @@
 								<div class="single-blog">
 									<div class="blog-img">
 										<a href="<?php echo site_url('Welcome/article3');?>">
-											<img src="<?php echo base_url();?>assets/img/a3.jpg" alt="">
+											<img src="<?php echo base_url();?>assets/img/a5.png" alt="">
 										</a>
 									</div>
 									<h4><a href="<?php echo site_url('Welcome/article3');?>">Anak korban broken home bisa sukses, mantan presiden SBY buktinya</a></h4>
