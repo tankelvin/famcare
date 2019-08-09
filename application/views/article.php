@@ -67,7 +67,7 @@
 								<div class="single-blog">
 									<div class="blog-img">
 										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/blog02.jpg" alt="">
+											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
@@ -86,7 +86,7 @@
 								<div class="single-blog">
 									<div class="blog-img">
 										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/blog03.jpg" alt="">
+											<img src="<?php echo base_url();?>assets/img/a3.jpg" alt="">
 										</a>
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
@@ -105,7 +105,7 @@
 								<div class="single-blog">
 									<div class="blog-img">
 										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/blog04.jpg" alt="">
+											<img src="<?php echo base_url();?>assets/img/a4.jpg" alt="">
 										</a>
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
