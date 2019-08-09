@@ -37,7 +37,7 @@
 				<div class="row">
 					<div class="section-header text-center">
 						<h2>Welcome</h2>
-						<p class="lead">Love Yourself..</p>
+						<p class="lead">Follow These Treatments Below, Click To Start</p>
 					</div>
 				</div>
 				<!-- /row -->

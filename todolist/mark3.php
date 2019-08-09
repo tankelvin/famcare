@@ -12,7 +12,7 @@
 	switch($as) {
 		case 'done':
 			$doneQuery = $db->prepare("
-				UPDATE progress4
+				UPDATE progress3
 				SET done = 1
 				WHERE id = :item
 				AND user = :user
@@ -26,7 +26,7 @@
 
 		case 'undone':
 			$undoneQuery = $db->prepare("
-				UPDATE progress4
+				UPDATE progress3
 				SET done = 0
 				WHERE id = :item
 				AND user = :user
@@ -40,7 +40,7 @@
 
 		case 'delete':
 			$deleteQuery = $db->prepare("
-				DELETE FROM progress4
+				DELETE FROM progress3
 				WHERE id = :item
 				AND user = :user
 			");
@@ -52,6 +52,6 @@
 		break;
 	}
 
-header('Location: progress4.php');
+header('Location: progress3.php');
 
 ?>
