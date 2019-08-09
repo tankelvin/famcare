@@ -16,9 +16,9 @@
 						<div class="col-md-10 col-md-offset-1 text-center">
 							<ul class="hero-area-tree">
 								<li><a href="<?php echo site_url('Welcome/homeadmin');?>">Home</a></li>
-								<li>User</li>
+								<li>Comment</li>
 							</ul>
-							<h1 class="white-text">Data User</h1>
+							<h1 class="white-text">Comments</h1>
 
 						</div>
 					</div>
@@ -36,7 +36,7 @@
                         <div class="header">
                         <div class="col-md-10 col-md-offset-1">
                             <h2>
-                                <a href="<?php echo site_url('user/insert')?>" class="btn btn-primary  pull-right">Tambah Data</a>
+                                <a href="<?php echo site_url('comment/insert')?>" class="btn btn-primary  pull-right">Tambah Data</a>
                                 <br>   
                             </h2>
                         </div>
@@ -48,24 +48,24 @@
                                     <thead>
                                         <tr>
                                             <th>No</th>
-                                            <th>Nama</th>
+                                            <th>Name</th>
                                             <th>Email</th>
-                                            <th>Password</th>
+                                            <th>Message</th>
                                             <th>aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                     	<?php
-                                    		foreach ($user as $key => $value) {
+                                    		foreach ($comment as $key => $value) {
                                     	?>
                                         <tr>
                                             <td><?php echo $key+1;?></td>
-                                            <td><?php echo $value->username;?></td>
+                                            <td><?php echo $value->name;?></td>
                                             <td><?php echo $value->email;?></td>
-                                            <td><?php echo $value->password;?></td>
+                                            <td><?php echo $value->message;?></td>
                                             <td>
-                                            	<a href="<?php echo site_url('user/update/'.$value->user_id)?>" class="btn btn-warning">Edit</a>
-                                            	<a href="<?php echo site_url('user/delete/'.$value->user_id)?>" onClick=" return confirm('Apakah anda ingin menghapus data ini?')" class="btn btn-danger">Delete</a>
+                                            	<a href="<?php echo site_url('comment/update/'.$value->comment_id)?>" class="btn btn-warning">Edit</a>
+                                            	<a href="<?php echo site_url('comment/delete/'.$value->comment_id)?>" onClick=" return confirm('Apakah anda ingin menghapus data ini?')" class="btn btn-danger">Delete</a>
                                             </td>
                                         </tr>
                                     <?php } ?>

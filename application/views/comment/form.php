@@ -16,9 +16,9 @@
 						<div class="col-md-10 col-md-offset-1 text-center">
 							<ul class="hero-area-tree">
 								<li><a href="<?php echo site_url('Welcome/homeadmin');?>">Home</a></li>
-								<li>User</li>
+								<li>Comment</li>
 							</ul>
-							<h1 class="white-text">Data User</h1>
+							<h1 class="white-text">Comments</h1>
 
 						</div>
 					</div>
@@ -32,24 +32,24 @@
            <div class="card">
                         <div class="body">
                         <div class="col-md-10 col-md-offset-1">
-                            <form action="<?php echo site_url('user/insert_aksi')?>" method="post"><br>
-                                <input type="hidden" name="user_id" value="<?php if(isset($user->user_id)) echo $user->user_id?>">
-                                <label for="email_address">Nama User</label>
+                            <form action="<?php echo site_url('Comment/insert_aksi')?>" method="post"><br>
+                                <input type="hidden" name="comment_id" value="<?php if(isset($comment->comment_id)) echo $comment->comment_id?>">
+                                <label for="email_address">Nama</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="email_address" class="form-control" name="username" placeholder="Masukkan Nama Anda" value="<?php if(isset($user->username)) echo $user->username?>">
+                                        <input type="text" id="email_address" class="form-control" name="name" placeholder="Masukkan Nama Anda" value="<?php if(isset($comment->name)) echo $comment->name?>">
                                     </div>
                                 </div>
                                 <label for="password">Email</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="text" id="password" class="form-control" name="email" placeholder="Masukkan Email Anda" value="<?php if(isset($user->email)) echo $user->email?>">
+                                        <input type="text" id="password" class="form-control" name="email" placeholder="Masukkan Email Anda" value="<?php if(isset($comment->email)) echo $comment->email?>">
                                     </div>
                                 </div>
-                                <label for="email_address">Password</label>
+                                <label for="email_address">Message</label>
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="password" id="email_address" class="form-control" name="password" placeholder="Masukkan Password Anda" value="<?php if(isset($user->password)) echo $user->password?>">
+                                        <input type="text" id="email_address" class="form-control" name="message" placeholder="Masukkan Pesan Anda" value="<?php if(isset($comment->message)) echo $comment->message?>">
                                     </div>
                                 </div>
 

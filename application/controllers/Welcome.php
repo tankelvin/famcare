@@ -87,6 +87,22 @@ class Welcome extends CI_Controller {
 		$this->load->view('article');
 	}
 
+	public function article3()
+	{
+		$this->load->view('article3');
+	}
+
+	public function article2()
+	{
+		$this->load->view('article2');
+	}
+
+	public function article4()
+	{
+		$this->load->view('article4');
+	}
+
+
 	public function contact()
 	{
 		$this->load->view('contact');

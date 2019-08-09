@@ -8,26 +8,26 @@
 		function __construct()
 		{
 			parent::__construct();
-			$this->load->model('user_model');		
+			$this->load->model('comment_model');		
 		}
 
 		public function index()
 		{
-			$data_user = $this->user_model->select();
+			$data_user = $this->comment_model->select();
 			$data['comment']=$data_user;
 			$this->load->view('comment/list', $data);
 		}
 
-		public function delete($user_id)
+		public function delete($comment_id)
 		{
-			$this->user_model->delete($user_id);
+			$this->comment_model->delete($comment_id);
 			redirect(site_url('comment'));
 		}
 
-		public function update($user_id)
+		public function update($comment_id)
 		{
-			$user=$this->db->where('comment_id',$user_id)->get('comment')->row();
-			$data['user']=$user;
+			$comment=$this->db->where('comment_id',$comment_id)->get('comment')->row();
+			$data['comment']=$comment;
 			$this->load->view('comment/form',$data);
 		}		
 
@@ -38,18 +38,18 @@
 
 		public function insert_aksi()
 		{
-			$user_id=$this->input->post('comment_id');
-			$username=$this->input->post('name');
+			$comment_id=$this->input->post('comment_id');
+			$name=$this->input->post('name');
 			$email=$this->input->post('email');
-			$password=$this->input->post('password');
-			$data_user=array('username'=>$username,'email'=>$email,'password'=>$password);
-			if($user_id=="") {
-				$this->user_model->insert($data_user);
-				redirect(site_url('user'));
+			$message=$this->input->post('message');
+			$data_user=array('name'=>$name,'email'=>$email,'message'=>$message);
+			if($comment_id=="") {
+				$this->comment_model->insert($data_user);
+				redirect(site_url('comment'));
 			}
 			else{
-				$this->user_model->update($data_user,$user_id);
-				redirect(site_url('user'));
+				$this->comment_model->update($data_user,$comment_id);
+				redirect(site_url('comment'));
 			}
 		}	
 	}
