@@ -28,22 +28,6 @@
 		</div>
 		<!-- /Hero-area -->
 
-		<!-- Blog -->
-		<div id="blog" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<!-- main blog -->
-					<div id="main" class="col-md-9">
-
-						<!-- row -->
-						<div class="row">
-
-							<!-- Courses -->
 		<div id="courses" class="section">
 
 			<!-- container -->
@@ -52,7 +36,7 @@
 				<!-- row -->
 				<div class="row">
 					<div class="section-header text-center">
-						<h2>Wellcome</h2>
+						<h2>Welcome</h2>
 						<p class="lead">Love Yourself..</p>
 					</div>
 				</div>
@@ -68,13 +52,11 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/index.php " class="course-img">
-									<img src="<?php echo base_url();?>assets/img/course01.jpg" alt="">
-									
+									<img src="<?php echo base_url();?>assets/img/course01.jpg" alt="">						
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-
-								
-							<a class="course-title" href="<?php echo base_url();?>todolist/index.php "> Make a Relationship </a>
+	
+								<a class="course-title" href="<?php echo base_url();?>todolist/index.php "> Make a Relationship </a>
 								<div class="course-details">
 									<?php $this->load->view('layout/progress');?>
 								</div>
@@ -87,9 +69,9 @@
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/progress2.php" class="course-img">
 									<img src="<?php echo base_url();?>assets/img/course02.jpg" alt="">
-									
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
+								
 								<a class="course-title" href="<?php echo base_url();?>todolist/progress2.php ">Get back your life</a>
 								<div class="course-details">
 									<?php $this->load->view('layout/progress2');?>
@@ -116,12 +98,12 @@
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="<?php echo base_url();?>todolist/progress4.php" class="course-img">
-								<img src="<?php echo base_url();?>assets/img/course04.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/course04.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
 								<a class="course-title" href="<?php echo base_url();?>todolist/progress4.php ">Make a new life</a>
 								<div class="course-details">
-								<?php $this->load->view('layout/progress4');?>
+									<?php $this->load->view('layout/progress4');?>
 								</div>
 							</div>
 						</div>
@@ -130,39 +112,14 @@
 					</div>
 					<!-- /row -->
 
-					
-
-					</div>
-					<!-- /row -->
-
 				</div>
 				<!-- /courses -->
-<a class="course-title">
-
-									<?php $this->load->view('layout/todolist1');?>
-								</a>
-				<div class="row">
-					<div class="center-btn">
-						<a class="main-button icon-button" href="#">More Courses</a>
-					</div>
-				</div>
 
 			</div>
 			<!-- container -->
 
 		</div>
 		<!-- /Courses -->
-
-						</div>
-						<!-- /row -->
-
-					
-
-
-		<!-- Footer -->
 		<?php $this->load->view('layout/footer');?>
-		
-		<!-- Footer -->
-
 	</body>
 </html>
