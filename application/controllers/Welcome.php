@@ -101,4 +101,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('article1');
 	}
+
+	public function comment()
+	{
+		$this->load->view('comment');
+	}
+
+	public function user()
+	{
+		$this->load->view('user');
+	}
 }
