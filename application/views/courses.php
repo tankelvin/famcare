@@ -4,7 +4,7 @@
 	<body>
 
 			<!-- Header -->
-		<?php $this->load->view('layout/navigation');?>
+		<?php $this->load->view('layout/userlogin_navigation');?>
 		<!-- /Header -->
 
 		<!-- Hero-area -->
@@ -16,7 +16,7 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="<?php echo site_url('Welcome/home');?>">Home</a></li>
 							<li>Courses</li>
 						</ul>
 						<h1 class="white-text">Courses</h1>

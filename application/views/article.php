@@ -2,36 +2,30 @@
 <html lang="en">
 	<?php $this->load->view('layout/header');?>
 	<body>
-		<?php $this->load->view('layout/navigation');?>
-		<?php $this->load->view('login');?>
-		<!-- Home -->
-		<div id="home" class="hero-area">
-		<?php $this->load->view('layout/header');?>
+
+		<?php $this->load->view('layout/userlogin_navigation');?>
 
 		<!-- Hero-area -->
-	<div class="hero-area section">
+		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-		<div class="bg-image bg-parallax overlay" style="background-image:url('<?php echo base_url();?>assets/img/fm2.jpg')">
-			
-		</div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(<?php echo base_url();?>assets/img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="<?php echo site_url('Welcome/home');?>">Home</a></li>
 							<li>Article</li>
 						</ul>
 						<h1 class="white-text">Article Page</h1>
+
 					</div>
 				</div>
 			</div>
 
-		
-			<!-- /Backgound Image -->
-
-			
-	</div>
+		</div>
 		<!-- /Hero-area -->
 
 		<!-- Blog -->
@@ -53,16 +47,15 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="<?php echo site_url('Welcome/article1');?>">
 											<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Lulusan Terbaik, Putra Deddy Corbuzier Buktikan Kalau Anak “Broken Home” Juga Bisa Berprestasi</a></h4>
+									<h4><a href="<?php echo site_url('Welcome/article1');?>">Lulusan Terbaik, Putra Deddy Corbuzier Buktikan Kalau Anak “Broken Home” Juga Bisa Berprestasi</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">Fhai</a></span>
+										<span class="blog-meta-author">By: Fhai</span>
 										<div class="pull-right">
 											<span>18 Oct, 2018</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
 										</div>
 									</div>
 								</div>
@@ -77,12 +70,11 @@
 											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Bagaimana Azka Corbuzier Mengubah ‘Broken Home’ Menjadi ‘Happy Home’</a></h4>
+									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">Ganis Rumpoko</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
 											<span>18 Oct, 2017</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
 										</div>
 									</div>
 								</div>
@@ -97,12 +89,11 @@
 											<img src="<?php echo base_url();?>assets/img/a3.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Anak korban broken home bisa sukses, mantan presiden SBY buktinya</a></h4>
+									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">brillio.net</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
-											<span>2 Jan, 2016</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
+											<span>18 Oct, 2017</span>
 										</div>
 									</div>
 								</div>
@@ -117,12 +108,11 @@
 											<img src="<?php echo base_url();?>assets/img/a4.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Kalau Saja Bertemu Denganmu, Akan Aku Ceritakan Bagaimana Kami Melalui Hari Tanpa Sosok Ayah di Sisi</a></h4>
+									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">Krantinamalau</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
-											<span>1 Sep, 2015</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
+											<span>18 Oct, 2017</span>
 										</div>
 									</div>
 								</div>
@@ -132,51 +122,12 @@
 						</div>
 						<!-- /row -->
 
-						<!-- row -->
-						<div class="row">
-
-							<!-- pagination -->
-							<div class="col-md-12">
-								<div class="post-pagination">
-									<a href="#" class="pagination-back pull-left">Back</a>
-									<ul class="pages">
-										<li class="active">1</li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-									</ul>
-									<a href="#" class="pagination-next pull-right">Next</a>
-								</div>
-							</div>	
-							<!-- pagination -->
-
-						</div>
-						<!-- /row -->
+						
 					</div>
 					<!-- /main blog -->
 
 					<!-- aside blog -->
 					<div id="aside" class="col-md-3">
-
-						<!-- search widget -->
-						<div class="widget search-widget">
-							<form>
-								<input class="input" type="text" name="search">
-								<button><i class="fa fa-search"></i></button>
-							</form>
-						</div>
-						<!-- /search widget -->
-
-						<!-- category widget -->
-						<div class="widget category-widget">
-							<h3>Categories</h3>
-							<a class="category" href="#">Web <span>12</span></a>
-							<a class="category" href="#">Css <span>5</span></a>
-							<a class="category" href="#">Wordpress <span>24</span></a>
-							<a class="category" href="#">Html <span>78</span></a>
-							<a class="category" href="#">Business <span>36</span></a>
-						</div>
-						<!-- /category widget -->
 
 						<!-- posts widget -->
 						<div class="widget posts-widget">
@@ -185,7 +136,7 @@
 							<!-- single posts -->
 							<div class="single-post">
 								<a class="single-post-img" href="blog-post.html">
-									<img src="./img/post01.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/post01.jpg" alt="">
 								</a>
 								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
 								<p><small>By : John Doe .18 Oct, 2017</small></p>
@@ -195,7 +146,7 @@
 							<!-- single posts -->
 							<div class="single-post">
 								<a class="single-post-img" href="blog-post.html">
-									<img src="./img/post02.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/post02.jpg" alt="">
 								</a>
 								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
 								<p><small>By : John Doe .18 Oct, 2017</small></p>
@@ -205,7 +156,7 @@
 							<!-- single posts -->
 							<div class="single-post">
 								<a class="single-post-img" href="blog-post.html">
-									<img src="./img/post03.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/post03.jpg" alt="">
 								</a>
 								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
 								<p><small>By : John Doe .18 Oct, 2017</small></p>
@@ -214,20 +165,6 @@
 
 						</div>
 						<!-- /posts widget -->
-
-						<!-- tags widget -->
-						<div class="widget tags-widget">
-							<h3>Tags</h3>
-							<a class="tag" href="#">Web</a>
-							<a class="tag" href="#">Photography</a>
-							<a class="tag" href="#">Css</a>
-							<a class="tag" href="#">Responsive</a>
-							<a class="tag" href="#">Wordpress</a>
-							<a class="tag" href="#">Html</a>
-							<a class="tag" href="#">Website</a>
-							<a class="tag" href="#">Business</a>
-						</div>
-						<!-- /tags widget -->
 
 					</div>
 					<!-- /aside blog -->
@@ -240,14 +177,8 @@
 
 		</div>
 		<!-- /Blog -->
-		</div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
 
-	<?php $this->load->view('layout/footer');?>
+		<?php $this->load->view('layout/footer');?>
 
-</body>
+	</body>
 </html>

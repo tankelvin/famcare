@@ -2,7 +2,7 @@
 <html lang="en">
 	<?php $this->load->view('layout/header');?>
 	<body>
-		<?php $this->load->view('layout/navigation');?>
+		<?php $this->load->view('layout/userlogin_navigation');?>
 
 		<!-- Hero-area -->
 		<div class="hero-area section">

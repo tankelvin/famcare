@@ -29,6 +29,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('index');
 	}
 
+	public function home()
+	{
+		$this->load->view('home');
+	}
+
 	public function cek_login()
 	{
 		$email = $this->input->post("email");
@@ -41,7 +46,7 @@ class Welcome extends CI_Controller {
 		else
 		{
 			//echo "Berhasil Login";
-			redirect(site_url('Welcome/index'));
+			redirect(site_url('Welcome/home'));
 		}
 	}
 
@@ -80,5 +85,10 @@ class Welcome extends CI_Controller {
 	public function todolist()
 	{
 		$this->load->view('todolist');
+	}
+
+	public function article1()
+	{
+		$this->load->view('article1');
 	}
 }
