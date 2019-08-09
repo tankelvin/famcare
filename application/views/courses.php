@@ -4,7 +4,7 @@
 	<body>
 
 			<!-- Header -->
-		<?php $this->load->view('layout/navigation');?>
+		<?php $this->load->view('layout/userlogin_navigation');?>
 		<!-- /Header -->
 
 		<!-- Hero-area -->

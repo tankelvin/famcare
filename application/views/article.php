@@ -2,11 +2,9 @@
 <html lang="en">
 	<?php $this->load->view('layout/header');?>
 	<body>
-		<?php $this->load->view('layout/navigation');?>
-		<?php $this->load->view('login');?>
+		<?php $this->load->view('layout/userlogin_navigation');?>
 		<!-- Home -->
 		<div id="home" class="hero-area">
-		<?php $this->load->view('layout/header');?>
 
 		<!-- Hero-area -->
 	<div class="hero-area section">

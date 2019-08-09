@@ -2,7 +2,7 @@
 <html lang="en">
 	<?php $this->load->view('layout/header');?>
 	<body>
-		<?php $this->load->view('layout/navigation');?>
+		<?php $this->load->view('layout/userlogin_navigation');?>
 		<?php $this->load->view('login');?>
 		<!-- Home -->
 		<div id="home" class="hero-area">
@@ -17,7 +17,7 @@
 						<div class="col-md-8">
 							<h1 class="white-text">FamCare Online Training Courses</h1>
 							<p class="lead white-text">The web helps you who are suffering from traumatic damage</p>
-							<a class="main-button icon-button" href="#" data-toggle="modal" data-target="#mylogin">Get Started!</a>
+							<a class="main-button icon-button" href="<?php echo site_url('Welcome/courses');?>">Do some courses</a>
 						</div>
 					</div>
 				</div>
