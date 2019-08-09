@@ -66,15 +66,15 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="<?php echo site_url('Welcome/article1');?>">
+										<a href="<?php echo site_url('Welcome/article2');?>">
 											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="<?php echo site_url('Welcome/article1');?>">Bagaimana Azka Corbuzier Mengubah ‘Broken Home’ Menjadi ‘Happy Home’</a></h4>
+									<h4><a href="<?php echo site_url('Welcome/article2');?>">Bagaimana Azka Corbuzier Mengubah ‘Broken Home’ Menjadi ‘Happy Home’</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: Fhai</span>
+										<span class="blog-meta-author">By: Yaw</span>
 										<div class="pull-right">
-											<span>18 Oct, 2018</span>
+											<span>1 Nov, 2017</span>
 										</div>
 									</div>
 								</div>
