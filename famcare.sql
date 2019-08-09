@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 09, 2019 at 03:02 AM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.10
+-- Generation Time: Aug 09, 2019 at 03:40 AM
+-- Server version: 10.3.16-MariaDB
+-- PHP Version: 7.1.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `items` (
   `id` int(11) UNSIGNED NOT NULL,
-  `name` text CHARACTER SET cp1250,
+  `name` text CHARACTER SET cp1250 DEFAULT NULL,
   `user` int(11) DEFAULT NULL,
   `done` tinyint(1) DEFAULT NULL,
   `created` datetime DEFAULT NULL
@@ -137,13 +137,23 @@ INSERT INTO `progress4` (`ID`, `name`, `done`, `user`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `user`
 --
 
-CREATE TABLE `users` (
-  `id` int(11) UNSIGNED NOT NULL,
-  `username` varchar(20) DEFAULT NULL
+CREATE TABLE `user` (
+  `user_id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`user_id`, `username`, `email`, `password`) VALUES
+(1, 'admin', 'admin@admin', 'admin'),
+(2, 'Tan', 'tan@mail.com', 'tan');
 
 --
 -- Indexes for dumped tables
@@ -180,10 +190,10 @@ ALTER TABLE `progress4`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indexes for table `users`
+-- Indexes for table `user`
 --
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`user_id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -220,10 +230,10 @@ ALTER TABLE `progress4`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `user`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+ALTER TABLE `user`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
