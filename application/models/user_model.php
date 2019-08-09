@@ -22,15 +22,15 @@
 			return $this->db->get('user')->result();
 		}
 
-		public function delete($id_user)
+		public function delete($user_id)
 		{
-			$this->db->where('user_id',$id_user);
+			$this->db->where('user_id',$user_id);
 			$this->db->delete('user');
 		}
 
-		public function update($data,$id_user)
+		public function update($data,$user_id)
 		{	
-			$this->db->where('user_id',$id_user);
+			$this->db->where('user_id',$user_id);
 			$this->db->update('user',$data);
 		}
 	}

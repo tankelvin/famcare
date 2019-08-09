@@ -15,7 +15,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<h1 class="white-text">Welcome Admin</h1>
-							<a class="main-button icon-button" href="<?php echo site_url('Welcome/user');?>">Show User</a>
+							<a class="main-button icon-button" href="<?php echo site_url('User/index');?>">Show User</a>
 							<a class="main-button icon-button" href="<?php echo site_url('Welcome/comment');?>">Show Comment</a>
 						</div>
 					</div>
