@@ -27,12 +27,5 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/js/jquery.min.js">
-
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/js/bootstrap.min.js">
-
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/js/google-map.js">
-
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/js/main.js">
 
     </head>
