@@ -55,7 +55,7 @@
 
 			<form class="item-add" action="add.php" method="POST">
 				
-				
+				 <a  href="http://localhost/famcare/index.php/Welcome/courses">back</a>
 			</form>
 
 		</div>

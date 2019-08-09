@@ -33,6 +33,7 @@
 
 	<body>
 
+
 		<div class="list">
 			<h1 class="header"> To do.
 			</h1>
@@ -46,25 +47,29 @@
 					<?php if(!$item['done']): ?> 
 						<a class="done-button" href="mark.php?as=done&item=<?php echo $item['id']; ?>">Mark as done</a>
 					<?php else: ?>
-						<a class="undone-button" href="mark.php?as=undone&item=<?php echo $item['id']; ?>">Mark as undone</a>						
+						<a class="undone-button" href="mark.php?as=undone&item=<?php echo $item['id']; ?>">Mark as undone</a>	
+
+
 					<?php endif; ?>
 				</li>
 				<?php endforeach; ?>
 			</ul>
 			<?php else: ?>
 				<p>You haven't added any items yet.</p>
+
 			<?php endif; ?>
 
 			<form class="item-add" action="add.php" method="POST">
 				
-				
-
+			
+           	 <a  href="http://localhost/famcare/index.php/Welcome/courses">back</a>
 
 			</form>
+
 	
 						
 		</div>
-
+	
 	</body>
 
 </html>
