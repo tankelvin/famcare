@@ -22,7 +22,7 @@
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
 						<li><a href="<?php echo site_url('User/index');?>">User</a></li>
-						<li><a href="<?php echo site_url('Welcome/comment');?>">Comment</a></li>
+						<li><a href="<?php echo site_url('Comment/index');?>">Comment</a></li>
 						<li><a href="<?php echo site_url('Welcome/index');?>">Logout</a></li>
 					</ul>
 				</nav>

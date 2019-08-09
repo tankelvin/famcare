@@ -43,7 +43,6 @@
 							<form>
 								<input class="input" type="text" name="name" placeholder="Name">
 								<input class="input" type="email" name="email" placeholder="Email">
-								<input class="input" type="text" name="subject" placeholder="Subject">
 								<textarea class="input" name="message" placeholder="Enter your Message"></textarea>
 								<button class="main-button icon-button pull-right">Send Message</button>
 							</form>
