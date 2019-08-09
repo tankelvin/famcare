@@ -47,7 +47,7 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="<?php echo site_url('Welcome/article1');?>">
 											<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 										</a>
 									</div>
