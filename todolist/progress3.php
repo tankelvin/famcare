@@ -42,9 +42,9 @@
 					<span class="item<?php echo $item['done'] ? ' done' : ''?>"> <?php echo parse($item['name']); ?></span>
 					
 					<?php if(!$item['done']): ?> 
-						<a class="done-button" href="mark2.php?as=done&item=<?php echo $item['ID']; ?>">Mark as done</a>
+						<a class="done-button" href="mark3.php?as=done&item=<?php echo $item['ID']; ?>">Mark as done</a>
 					<?php else: ?>
-						<a class="undone-button" href="mark2.php?as=undone&item=<?php echo $item['ID']; ?>">Mark as undone</a>						
+						<a class="undone-button" href="mark3.php?as=undone&item=<?php echo $item['ID']; ?>">Mark as undone</a>						
 					<?php endif; ?>
 				</li>
 				<?php endforeach; ?>
