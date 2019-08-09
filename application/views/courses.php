@@ -67,7 +67,7 @@
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="#" class="course-img">
+								<a href="<?php echo base_url();?>todolist/index.php " class="course-img">
 									<img src="<?php echo base_url();?>assets/img/course01.jpg" alt="">
 									
 									<i class="course-link-icon fa fa-link"></i>
@@ -85,12 +85,12 @@
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="#" class="course-img">
+								<a href="<?php echo base_url();?>todolist/progress2.php" class="course-img">
 									<img src="<?php echo base_url();?>assets/img/course02.jpg" alt="">
 									
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="#">Introduction to CSS </a>
+								<a class="course-title" href="<?php echo base_url();?>todolist/progress2.php ">Get back your life</a>
 								<div class="course-details">
 									<?php $this->load->view('layout/progress2');?>
 								</div>
@@ -101,11 +101,11 @@
 						<!-- single course -->
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="#" class="course-img">
+								<a href="<?php echo base_url();?>todolist/progress3.php" class="course-img">
 									<img src="<?php echo base_url();?>assets/img/course03.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
+								<a class="course-title" href="<?php echo base_url();?>todolist/progress3.php ">Try to love something</a>
 								<div class="course-details">
 									<?php $this->load->view('layout/progress3');?>
 								</div>
@@ -115,11 +115,11 @@
 
 						<div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
-								<a href="#" class="course-img">
+								<a href="<?php echo base_url();?>todolist/progress4.php" class="course-img">
 								<img src="<?php echo base_url();?>assets/img/course04.jpg" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="#">The Complete Web Development Course</a>
+								<a class="course-title" href="<?php echo base_url();?>todolist/progress4.php ">Make a new life</a>
 								<div class="course-details">
 								<?php $this->load->view('layout/progress4');?>
 								</div>
@@ -138,14 +138,9 @@
 				</div>
 				<!-- /courses -->
 <a class="course-title">
-
-									<?php $this->load->view('layout/todolist1');?>
-								</a>
-				<div class="row">
-					<div class="center-btn">
-						<a class="main-button icon-button" href="#">More Courses</a>
-					</div>
-				</div>
+<?php $this->load->view('layout/todolist1');?>
+</a>
+				
 
 			</div>
 			<!-- container -->
@@ -165,4 +160,5 @@
 		<!-- Footer -->
 
 	</body>
+	
 </html>
