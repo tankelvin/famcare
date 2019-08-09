@@ -136,33 +136,26 @@
 
 							<!-- single posts -->
 							<div class="single-post">
-								<a class="single-post-img" href="blog-post.html">
-									<img src="<?php echo base_url();?>assets/img/post01.jpg" alt="">
+								<a class="single-post-img" href="<?php echo site_url('Welcome/article1');?>">
+									<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
+
 								</a>
-								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
-								<p><small>By : John Doe .18 Oct, 2017</small></p>
+								<a href="<?php echo site_url('Welcome/article1');?>">Bagaimana Azka Corbuzier Mengubah...</a>
 							</div>
 							<!-- /single posts -->
 
 							<!-- single posts -->
 							<div class="single-post">
 								<a class="single-post-img" href="blog-post.html">
-									<img src="<?php echo base_url();?>assets/img/post02.jpg" alt="">
+									<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 								</a>
-								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
-								<p><small>By : John Doe .18 Oct, 2017</small></p>
+								<a href="<?php echo site_url('Welcome/article1');?>">Lulusan Terbaik, Putra Deddy...</a>
+								<p><small>By : fhai</small></p>
 							</div>
 							<!-- /single posts -->
 
-							<!-- single posts -->
-							<div class="single-post">
-								<a class="single-post-img" href="blog-post.html">
-									<img src="<?php echo base_url();?>assets/img/post03.jpg" alt="">
-								</a>
-								<a href="blog-post.html">Pro eu error molestie deserunt.</a>
-								<p><small>By : John Doe .18 Oct, 2017</small></p>
-							</div>
-							<!-- /single posts -->
+							
+							
 
 						</div>
 						<!-- /posts widget -->
