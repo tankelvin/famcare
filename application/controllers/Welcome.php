@@ -34,6 +34,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('home');
 	}
 
+	public function homeadmin()
+	{
+		$this->load->view('homeadmin');
+	}
+
 	public function cek_login()
 	{
 		$email = $this->input->post("email");
@@ -46,7 +51,12 @@ class Welcome extends CI_Controller {
 		else
 		{
 			//echo "Berhasil Login";
-			redirect(site_url('Welcome/home'));
+			if($email=="admin@admin" AND $password=="admin"){
+				redirect(site_url('Welcome/homeadmin'));
+			}
+			else{
+				redirect(site_url('Welcome/home'));
+			}
 		}
 	}
 
