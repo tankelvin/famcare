@@ -86,4 +86,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('todolist');
 	}
+
+	public function article1()
+	{
+		$this->load->view('article1');
+	}
 }

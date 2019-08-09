@@ -48,15 +48,14 @@
 								<div class="single-blog">
 									<div class="blog-img">
 										<a href="blog-post.html">
-											<img src="<?php echo base_url();?>assets/img/blog01.jpg" alt="">
+											<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
+									<h4><a href="<?php echo site_url('Welcome/article1');?>">Lulusan Terbaik, Putra Deddy Corbuzier Buktikan Kalau Anak “Broken Home” Juga Bisa Berprestasi</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
+										<span class="blog-meta-author">By: Fhai</span>
 										<div class="pull-right">
-											<span>18 Oct, 2017</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
+											<span>18 Oct, 2018</span>
 										</div>
 									</div>
 								</div>
@@ -73,10 +72,9 @@
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
 											<span>18 Oct, 2017</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
 										</div>
 									</div>
 								</div>
@@ -93,10 +91,9 @@
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
 											<span>18 Oct, 2017</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
 										</div>
 									</div>
 								</div>
@@ -113,10 +110,9 @@
 									</div>
 									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
-										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
+										<span class="blog-meta-author">By: John Doe</span>
 										<div class="pull-right">
 											<span>18 Oct, 2017</span>
-											<span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></span>
 										</div>
 									</div>
 								</div>
