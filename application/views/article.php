@@ -47,11 +47,11 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="artikel1.php">
 											<img src="<?php echo base_url();?>assets/img/a1.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
+									<h4><a href="artikel1.php">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
 										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
 										<div class="pull-right">
@@ -67,11 +67,11 @@
 							<div class="col-md-6">
 								<div class="single-blog">
 									<div class="blog-img">
-										<a href="blog-post.html">
+										<a href="artikel1.php">
 											<img src="<?php echo base_url();?>assets/img/a2.jpg" alt="">
 										</a>
 									</div>
-									<h4><a href="blog-post.html">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
+									<h4><a href="artikel1.php">Pro eu error molestie deserunt. At per viderer bonorum persecuti.</a></h4>
 									<div class="blog-meta">
 										<span class="blog-meta-author">By: <a href="#">John Doe</a></span>
 										<div class="pull-right">
