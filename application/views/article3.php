@@ -11,7 +11,7 @@
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url('<?php echo base_url();?>assets/img/a2.jpg')"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url('<?php echo base_url();?>assets/img/a3.jpg')"></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">

@@ -81,6 +81,43 @@
 							</div>
 							<!-- /single blog -->
 
+<!-- single blog -->
+							<div class="col-md-6">
+								<div class="single-blog">
+									<div class="blog-img">
+										<a href="<?php echo site_url('Welcome/article3');?>">
+											<img src="<?php echo base_url();?>assets/img/a3.jpg" alt="">
+										</a>
+									</div>
+									<h4><a href="<?php echo site_url('Welcome/article3');?>">Anak korban broken home bisa sukses, mantan presiden SBY buktinya</a></h4>
+									<div class="blog-meta">
+										<span class="blog-meta-author">By: brillio.net</span>
+										<div class="pull-right">
+											<span>6 March, 2016</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /single blog -->
+
+							<!-- single blog -->
+							<div class="col-md-6">
+								<div class="single-blog">
+									<div class="blog-img">
+										<a href="<?php echo site_url('Welcome/article4');?>">
+											<img src="<?php echo base_url();?>assets/img/a4.jpg" alt="">
+										</a>
+									</div>
+									<h4><a href="<?php echo site_url('Welcome/article4');?>">Kalau Saja Bertemu Denganmu, Akan Aku Ceritakan Bagaimana Kami Melalui Hari Tanpa Sosok Ayah di Sisi</a></h4>
+									<div class="blog-meta">
+										<span class="blog-meta-author">By: Krantinamalau</span>
+										<div class="pull-right">
+											<span>6 March, 2016</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /single blog -->
 							<!-- single blog -->
 							
 						</div>
